@@ -1,84 +1,175 @@
 <!DOCTYPE html>
 <html>
+
     <head>
         <title> Dominic Evans | Home </title>
-        <link type="text/css" rel="stylesheet"
-        href="css/style.css"/>
-        <nav>
-            <ul>
-                <li class="selected">Home</li>
-                <li><a href="about.html">About Me</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="contact.html">Contact Me</a></li>
-            </ul>
-        </nav>
+        <link type="text/css" rel="stylesheet" href="css/style.css"/>
     </head>
+
     <body>
 
-        <h1>Dominic Evans</h1>
+        <header class="nav">
+                <nav>
+                    <ul>
+                        <li class="selected">Home</li>
+                        <li><a href="about.html">About Me</a></li>
+                        <li class="dropdown">
+                            <a href="projects.html">Projects    
+                                <svg class="arrow" width="10" height="6" viewBox="0 0 10 6">
+                                <path d="M1 1L5 5L9 1"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"/>
+                            </svg></a>
 
-        <h2>Game Developer • Film Maker • Voice Actor • Photographer</h2>
+                            <ul class="dropdown-menu">
+                                <li><a href="projects.html?filter=games">Games</a></li>
 
-        <p>Building interactive experiences through code, design, and storytelling.</p>
+                                <li><a href="projects.html?filter=film">Films</a></li>
 
-        <p class="Welcome-to-my-portfolio">
-            I'm Dominic Evans, a game developer and creative 
-            technologist focused on building immersive experiences, experimenting with 
-            new ideas, and bringing unique worlds to life.
-        </p>
+                                <li><a href="projects.html?filter=photography">Photography</a></li>
 
-        <p>
-            From gameplay systems and programming to world-building and visual design, 
-            I enjoy working across the entire development process to create meaningful 
-            experiences.
-        </p>
+                                <li><a href="projects.html?filter=voice">Voice Acting</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="contact.html">Contact Me</a></li>
+                        <ul class="external-links">
+                            <a href="https://www.instagram.com/dominic_evans15/"><img src="images/instagram.png" alt="Instagram"></a>
+                            <a href="https://www.twitch.tv/glasschickenstudios"><img src="images/twitch.png" alt="Twitch"></a>
+                            <a href="https://github.com/GlassChickenStudios"><img src="images/github.png" alt="Github"></a>
+                        </ul>
+                    </ul>
+                </nav>
+        </header>
 
+        <div class="page">
+        <section class="hero">
 
-        <h2>What I Create</h2>
+            <div class="hero-content">
+                <div class="hero-text">
 
-        <h3>Game Development</h3>
+                    <h1>Dominic Evans</h1>
 
-        <p>
-            Designing and developing interactive experiences with a focus on gameplay 
-            mechanics, systems, and player engagement.
-        </p>
+                    <h2>Game Developer &bull; Filmmaker &bull; Voice Actor &bull; Photographer</h2>
 
+                    <p>Building interactive worlds/experiences through<br> code, design, and storytelling.</p>
 
-        <h3>Programming</h3>
+                    <div class="buttons">
 
-        <p>
-            Creating clean and efficient solutions through software development, tools, 
-            and technical experimentation.
-        </p>
+                        <a href="projects.html">View My Work</a>
+                        <a href="contact.html">Contact Me</a>
 
-
-        <h3>Creative Design</h3>
-
-        <p>
-            Combining storytelling, visuals, and technology to build memorable digital 
-            experiences.
-        </p>
+                    </div>
+                </div>
 
 
-        <h3>Projects & Experiments</h3>
+            </div>
 
-        <p>
-            Exploring ideas ranging from games and applications to personal tools and 
-            creative concepts.
-        </p>
+            <div class="hero-image">
+                <svg class="wave"
+                    viewBox="0 0 120 1440"
+                    preserveAspectRatio="none">
 
+                    <path
+                    fill="#d6cfb3"
+                    d="
+                    M56,0
+                    C-60,360
+                    120,1080
+                    40,1440
+                    L0,1440
+                    L0,0
+                    Z"/>
+                </svg>
+                <img src="images/GCSLogo.png" alt="Dominic Evans">
+            </div>
 
-        <h2>Featured Work</h2>
+        </section>
 
-        <p>
-            Explore some of my recent projects, experiments, and creative builds.
-        </p>
+        <section class="services">
 
-        <ul>
-            <li>FILM NAME HERE</li>
-            <li>NATURE PHOTOS?</li>
-            <li>Game Development Projects?</li>
-            <li>OTHER STUFF</li>
-        </ul>
+            <h2>What I Do</h2>
+
+            <div class="service-container">
+
+                <div class="card">
+                    <div class="icon"><img src="images/Tree1.png"/></div>
+                    <h3>Game Development</h3>
+                    <p>Creating interactive worlds, gameplay, and memorable player experiences.</p>
+                </div>
+
+                <div class="card">
+                    <div class="icon"><img src="images/Tree3.png"/></div>
+                    <h3>Programming</h3>
+                    <p>Building software, tools, and technical solutions through clean and efficient code.</p>
+                </div>
+
+                <div class="card">
+                    <div class="icon"><img src="images/Tree8.png"/></div>
+                    <h3>Creative Design</h3>
+                    <p>Combining visuals, storytelling, and technology to create unique experiences.</p>
+                </div>
+
+                <div class="card">
+                    <div class="icon"><img src="images/Tree5.png"/></div>
+                    <h3>Media</h3>
+                    <p>Photography, film, voice acting, and creative experimentation.</p>
+                </div>
+
+            </div>
+
+        </section>
+
+<section class="projects">
+
+    <h2>Featured Work</h2>
+
+    <div class="project-grid">
+
+        <a href="games.html" class="project">
+            <img src="images/Taped_Polaroid_1.png" alt="In Progress...">
+            <span class="project-title tilt-left">In Progress...</span>
+        </a>
+
+        <a href="games.html" class="project">
+            <img src="images/Taped_Polaroid_2.png" alt="Most Recent">
+            <span class="project-title tilt-right">Most Recent</span>
+        </a>
+
+        <a href="films.html" class="project">
+            <img src="images/Taped_Polaroid_1.png" alt="Films">
+            <span class="project-title tilt-left">Films</span>
+        </a>
+
+        <a href="photography.html" class="project">
+            <img src="images/Taped_Polaroid_2.png" alt="Photography">
+            <span class="project-title tilt-right">Photography</span>
+        </a>
+
+    </div>
+
+</section>
+        </div>
+
+        <footer>
+
+            <div class="footer-scenery">
+                <img class="tree tree-left random-tree" alt="">
+                <img class="tree tree-middle random-tree" alt="">
+                <img class="tree tree-right random-tree" alt="">
+                <img class="bush bush1 random-bush" alt="">
+                <img class="bush bush2 random-bush" alt="">
+                <img class="bush bush3 random-bush" alt="">
+                <script src="js/random.js"></script>
+
+                <div class="ground"></div>
+
+            </div>
+
+            <h3>DwnX | Glass Chicken Studios &copy; 2011</h3>
+
+        </footer>
     </body>
 </html>
