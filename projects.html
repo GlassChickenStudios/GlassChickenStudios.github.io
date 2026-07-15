@@ -1,147 +1,342 @@
 <!DOCTYPE html>
 <html>
+
     <head>
         <title> Dominic Evans | Projects </title>
-        <link type="text/css" rel="stylesheet"
-        href="css/style.css"/>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Me</a></li>
-                <li class="selected">Projects</li>
-                <li><a href="contact.html">Contact Me</a></li>
-            </ul>
-        </nav>
+        <link type="text/css" rel="stylesheet" href="css/style.css"/>
     </head>
+
     <body>
-        <header>TEST</header>
-        <!-- <h1>Projects</h1>
-        <p>My name is <strong>Dominic Evans</strong>!</p>
-        <p><img src="images/Mepfp.png"
-        alt="My Avatar"/></p>
-        <p>I am a Game Developer, Voice Actor, & More</p>
-        <ul>
-            <li>Magical Mystery Bug</li>
-            <li>Boot it</li>
-            <li>The Long and Winding Code</li>
-            <li>Dojo Dancing</li>
-            <li>Empty Elements</li>
-            <li>Java Chameleon</li>
-        </ul>
-        <ol>
-            <li>Magical Mystery Bug</li>
-            <li>Boot it</li>
-            <li>The Long and Winding Code</li>
-            <li>Dojo Dancing</li>
-            <li>Empty Elements</li>
-            <li>Java Chameleon</li>
-        </ol> -->
-        <h1>Projects</h1>
+
+        <header class="nav">
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Me</a></li>
+                        <li class="dropdown selected">
+                            <a href="projects.html">Projects    
+                                <svg class="arrow" width="10" height="6" viewBox="0 0 10 6">
+                                <path d="M1 1L5 5L9 1"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"/>
+                            </svg></a>
+
+                            <ul class="dropdown-menu">
+                                <li><a href="projects.html?filter=games">Games</a></li>
+
+                                <li><a href="projects.html?filter=film">Films</a></li>
+
+                                <li><a href="projects.html?filter=photography">Photography</a></li>
+
+                                <li><a href="projects.html?filter=voice">Voice Acting</a></li>
+                            
+                            </ul>
+                        </li>
+                        <li><a href="contact.html">Contact Me</a></li>
+                        <ul class="external-links">
+                            <a href="https://www.instagram.com/dominic_evans15/"><img src="images/instagram.png" alt="Instagram"></a>
+                            <a href="https://www.twitch.tv/glasschickenstudios"><img src="images/twitch.png" alt="Twitch"></a>
+                            <a href="https://github.com/GlassChickenStudios"><img src="images/github.png" alt="Github"></a>
+                        </ul>
+                    </ul>
+                </nav>
+        </header>
+
+        <div class="page">
+<section class="project-filter">
+
+    <h2>Explore Creations</h2>
+
+    <div class="filter-buttons">
+
+        <button class="active" data-filter="all">
+            All
+        </button>
+
+        <button data-filter="games">
+            🎮 Games
+        </button>
+
+        <button data-filter="software">
+            💻 Software
+        </button>
+
+        <button data-filter="ai">
+            🤖 AI
+        </button>
+
+        <button data-filter="film">
+            🎥 Film
+        </button>
+
+        <button data-filter="photography">
+            📷 Photography
+        </button>
+
+        <button data-filter="voice">
+            🎙 Voice Acting
+        </button>
+
+    </div>
+
+</section>
+
+
+
+
+
+
+<section class="project-archive">
+
+
+<h2>Featured Creations</h2>
+
+
+
+<div class="project-grid">
+
+
+
+
+
+<!-- =====================
+     PROJECT TEMPLATE
+===================== -->
+
+<!-- 
+<article class="project-entry">
+
+
+    <div class="project-thumbnail">
+
+
+        <img src="images/project-placeholder.png" alt="Project Name">
+
+
+    </div>
+
+
+<span class="status">IN DEVELOPMENT</span>
+    <div class="project-info">
+
+
+        <h2>Project Name</h2>
+
+
+
+        <h3>
+            A short description explaining what makes this project unique.
+        </h3>
+
+
 
         <p>
-            A collection of games, software, experiments, and creative projects I've 
-            developed.
+
+            Explain what the project is, why it exists, what inspired it,
+            and what you learned while creating it.
+
         </p>
+
+
+
+        <h4>Role</h4>
+
+
+        <div class="project-tags">
+
+            <span>Designer</span>
+
+            <span>Programmer</span>
+
+            <span>Developer</span>
+
+        </div>
+
+
+
+
+
+        <h4>Skills & Technologies</h4>
+
+
+        <div class="project-tags">
+
+
+            <span>C++</span>
+
+            <span>Git</span>
+
+            <span>Tools</span>
+
+
+        </div>
+
+
+
+
+
+        <a href="#" class="project-button">
+
+            Open Entry
+
+        </a>
+
+
+
+    </div>
+
+
+</article> -->
+<!-- <article class="project-entry project-template" data-category="template">
+
+
+    <div class="project-thumbnail">
+
+        <img src="images/project.png">
+
+    </div>
+
+<span class="status">TEMPLATE</span>
+    <div class="project-info">
 
 
         <h2>Glass Chicken</h2>
 
-        <h3>A creative game development project exploring unique gameplay concepts and memorable characters.</h3>
 
         <p>
-            Glass Chicken is a personal project focused on creating an original experience 
-            through gameplay, design, and storytelling.
+            A game development project focused on unique gameplay,
+            characters, and storytelling.
         </p>
 
-        <h4>Role</h4>
-
-        <ul>
-            <li>Game Designer</li>
-            <li>Programmer</li>
-            <li>Creative Director</li>
-        </ul>
-
-        <h4>Technologies</h4>
-
-        <ul>
-            <li>Game Engine</li>
-            <li>C#</li>
-            <li>Blender</li>
-            <li>Git</li>
-        </ul>
 
 
-        <h2>Kari</h2>
+        <div class="project-tags">
 
-        <h3>A reproducible Arch Linux + Hyprland configuration system.</h3>
+            <span>Game</span>
 
-        <p>
-            <!-- <img id="display-image" onclick="swapImage()" src="images/01.png" width="180" height="180"/> -->
-            Kari is a personal Linux customization project focused on creating a clean, 
-            beautiful, and repeatable desktop environment.
-        </p>
+            <span>Unity</span>
 
-        <h4>Role</h4>
+            <span>C#</span>
 
-        <ul>
-            <li>System Designer</li>
-            <li>Developer</li>
-            <li>Maintainer</li>
-        </ul>
-
-        <h4>Technologies</h4>
-
-        <ul>
-            <li>Arch Linux</li>
-            <li>Hyprland</li>
-            <li>Bash</li>
-            <li>Git</li>
-        </ul>
+        </div>
 
 
-        <h2>MGDC Mock Studio</h2>
+    </div>
+
+
+</article> -->
+
+
+<article class="project-entry project-template" data-category="example">
+
+
+    <div class="project-thumbnail">
+
+        <img src="images/project-placeholder.png" alt="Project Example">
+
+    </div>
+    <span class="tag Example">TEMPLATE</span>
+    <span class="tag Example">TEMPLATE</span>
+
+
+
+    <div class="project-info">
+
+
+        <h2>Project Name</h2>
+
+
+
+
+
 
         <h3>
-            Creating a simulated game studio environment for students.
+            A short description explaining what makes this project unique.
         </h3>
 
+
         <p>
-            A collaborative initiative designed to recreate real-world game development 
-            workflows, including team structures, production pipelines, testing, and 
-            publishing.
+            Explain the purpose of the project, your role, challenges,
+            and what you learned while creating it.
         </p>
+
+
 
         <h4>Role</h4>
 
         <ul>
-            <li>President</li>
-            <li>Project Coordinator</li>
-            <li>QA Lead</li>
+
+            <li>Designer</li>
+            <li>Programmer</li>
+            <li>Creator</li>
+
         </ul>
 
-        <h2>PROJECTS</h2>
-        <table>
-            <tr>
-                <th>1</th><th>2</th><th>3</th><th>4</th>
-            </tr>
-            <tr>
-                <td>4</td><td></td><td></td><td></td>
-            </tr>
-            <tr>
-                <td></td><td></td><td></td><td></td>
-            </tr>
-            <tr>
-                <td></td><td>5</td><td></td><td></td>
-            </tr>
-            <tr>
-                <td></td><td></td><td>6</td><td></td>
-            </tr>
-            <tr>
-                <td>7</td><td></td><td></td><td>8</td>
-            </tr>
-        </table>
-        <section>HELLO</section>
-        <aside>HELLO2</aside>
-        <footer>TEST2</footer>
+
+
+        <a href="#" class="project-button">
+            View More
+        </a>
+
+
+    </div>
+
+
+</article>
+
+
+<!-- =====================
+     EMPTY PROJECT SLOT
+===================== -->
+
+<article class="project-entry empty-project">
+
+
+    <div class="new-project">
+        +
+    </div>
+
+
+</article>
+
+
+
+
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+</div>
+
+        <footer>
+
+            <div class="footer-scenery">
+                <img class="tree tree-left random-tree" alt="">
+                <img class="tree tree-middle random-tree" alt="">
+                <img class="tree tree-right random-tree" alt="">
+                <img class="bush bush1 random-bush" alt="">
+                <img class="bush bush2 random-bush" alt="">
+                <img class="bush bush3 random-bush" alt="">
+                <script src="js/random.js"></script>
+
+                <div class="ground"></div>
+
+            </div>
+
+            <h3>DwnX | Glass Chicken Studios &copy; 2011</h3>
+
+        </footer>
+<script src="js/project-filter.js"></script>
     </body>
 </html>
