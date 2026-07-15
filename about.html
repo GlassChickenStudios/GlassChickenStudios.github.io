@@ -1,129 +1,519 @@
 <!DOCTYPE html>
 <html>
+
     <head>
         <title> Dominic Evans | About Me </title>
-        <link type="text/css" rel="stylesheet"
-        href="css/style.css"/>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li class="selected">About Me</li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="contact.html">Contact Me</a></li>
-            </ul>
-        </nav>
+        <link type="text/css" rel="stylesheet" href="css/style.css"/>
     </head>
+
     <body>
-        <h1>About Me</h1>
 
-        <h2>Who I Am</h2>
+        <header class="nav">
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li class="selected">About Me</li>
+                        <li class="dropdown">
+                            <a href="projects.html">Projects    
+                                <svg class="arrow" width="10" height="6" viewBox="0 0 10 6">
+                                <path d="M1 1L5 5L9 1"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"/>
+                            </svg></a>
 
-        <p>
-            I'm Dominic Evans, a game developer and creator passionate about combining 
-            technology, creativity, and storytelling.
-        </p>
+                            <ul class="dropdown-menu">
+                                <li><a href="projects.html?filter=games">Games</a></li>
 
-        <p>
-            I enjoy building interactive experiences, experimenting with new ideas, 
-            and creating projects that allow people to explore, learn, and engage.
-        </p>
+                                <li><a href="projects.html?filter=film">Films</a></li>
 
+                                <li><a href="projects.html?filter=photography">Photography</a></li>
 
-        <h2>My Story</h2>
+                                <li><a href="projects.html?filter=voice">Voice Acting</a></li>
+                            
+                            </ul>
+                        </li>
+                        <li><a href="contact.html">Contact Me</a></li>
+                        <ul class="external-links">
+                            <a href="https://www.instagram.com/dominic_evans15/"><img src="images/instagram.png" alt="Instagram"></a>
+                            <a href="https://www.twitch.tv/glasschickenstudios"><img src="images/twitch.png" alt="Twitch"></a>
+                            <a href="https://github.com/GlassChickenStudios"><img src="images/github.png" alt="Github"></a>
+                        </ul>
+                    </ul>
+                </nav>
+        </header>
 
-        <p>
-            My journey started with curiosity — taking things apart, understanding how 
-            they worked, and eventually creating things of my own.
-        </p>
+        <div class="page">
 
-        <p>
-            Over time, that curiosity grew into a passion for programming, game 
-            development, and designing experiences that people can interact with.
-        </p>
+<section class="character-sheet">
 
-        <p>
-            I enjoy working across multiple disciplines, from writing code and designing 
-            systems to creating worlds, characters, and concepts.
-        </p>
+    <div class="profile-card">
 
+        <img src="images/ME.jpg" alt="Dominic Evans">
 
-        <h2>What I Do</h2>
+        <div class="profile-info">
 
+            <h1>Dominic Evans</h1>
 
-        <h3>Game Development</h3>
+            <h3>
+                Indie Game Developer
+            </h3>
 
-        <p>
-            I design and develop games with a focus on gameplay mechanics, player 
-            experience, and memorable worlds.
-        </p>
-
-
-        <h3>Software & Tools</h3>
-
-        <p>
-            I enjoy building software, experimenting with new technologies, and creating 
-            tools that improve workflows.
-        </p>
-
-
-        <h3>Creative Experimentation</h3>
-
-        <p>
-            Many of my projects begin as experiments — ideas that allow me to learn, 
-            explore, and push my skills further.
-        </p>
-
-
-        <h2>My Philosophy</h2>
-
-        <p>
-            Great creations come from curiosity.
-        </p>
-
-        <p>
-            I believe the best projects are built through experimentation, iteration, 
-            and a willingness to explore new ideas.
-        </p>
+            <p>
+                Designer • Programmer • Storyteller • Creator
+            </p>
 
 
-        <h2>Skills</h2>
+            <div class="badges">
+
+                <span>Solo Dev</span>
+                <span>Game Designer</span>
+                <span>Educator</span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="stats">
+
+
+        <div class="stat-box">
+
+            <h3>Class</h3>
+
+            <p>
+                Creative Developer
+            </p>
+
+        </div>
+
+
+        <div class="stat-box">
+
+            <h3>Main Role</h3>
+
+            <p>
+                Game Designer
+            </p>
+
+        </div>
+
+
+        <div class="stat-box">
+
+            <h3>Alignment</h3>
+
+            <p>
+                Curious Creator
+            </p>
+
+        </div>
+
+
+        <div class="stat-box">
+
+            <h3>Guild</h3>
+
+            <p>
+                MacEwan Game Dev Club
+            </p>
+
+        </div>
+
+
+    </div>
+
+
+</section>
+<h2>Attributes</h2>
+
+
+<div class="attributes">
+
+
+    <div class="attribute">
+
+        <h3>Design</h3>
+
+        <div class="bar">
+
+            <span style="width:95%"></span>
+
+        </div>
+
+    </div>
+
+
+
+    <div class="attribute">
 
         <h3>Programming</h3>
 
-        <ul>
-            <li>C++</li>
-            <li>C#</li>
-            <li>Python</li>
-            <li>JavaScript</li>
-        </ul>
+        <div class="bar">
+
+            <span style="width:85%"></span>
+
+        </div>
+
+    </div>
 
 
-        <h3>Game Development</h3>
 
-        <ul>
-            <li>Gameplay Programming</li>
-            <li>Systems Design</li>
-            <li>Level Design</li>
-            <li>Prototyping</li>
-        </ul>
+    <div class="attribute">
 
+        <h3>Storytelling</h3>
 
-        <h3>Tools & Technologies</h3>
+        <div class="bar">
 
-        <ul>
-            <li>Git</li>
-            <li>Linux</li>
-            <li>Hyprland</li>
-            <li>VS Code</li>
-        </ul>
+            <span style="width:90%"></span>
+
+        </div>
+
+    </div>
 
 
-        <h3>Creative Skills</h3>
 
-        <ul>
-            <li>Storytelling</li>
-            <li>World Building</li>
-            <li>Character Design</li>
-        </ul>
+    <div class="attribute">
+
+        <h3>Teaching</h3>
+
+        <div class="bar">
+
+            <span style="width:90%"></span>
+
+        </div>
+
+    </div>
+
+
+</div>
+<h2>Character Description</h2>
+
+<div class="paper-box">
+
+<p>
+    I am a solo indie developer who enjoys creating worlds,
+    stories, mechanics, and experiences that players can interact with.
+</p>
+
+<p>
+    While programming is one of my strongest tools, my passion lies in
+    the entire creative process — designing systems, building worlds,
+    creating characters, and experimenting with new ideas.
+</p>
+
+</div>
+<h2>Skill Tree</h2>
+
+
+<div class="skill-tree">
+
+
+<div class="skill">
+
+<h3>Game Design</h3>
+
+<ul>
+<li>Gameplay Mechanics</li>
+<li>Systems Design</li>
+<li>Level Design</li>
+<li>World Building</li>
+</ul>
+
+</div>
+
+
+<div class="skill">
+
+<h3>Programming</h3>
+
+<ul>
+<li>C++</li>
+<li>C#</li>
+<li>Python</li>
+<li>JavaScript</li>
+<li>Lua</li>
+<li>GDScript</li>
+</ul>
+
+</div>
+
+
+
+<div class="skill">
+
+<h3>Creative</h3>
+
+<ul>
+<li>Photography</li>
+<li>Film</li>
+<li>Voice Acting</li>
+<li>Writing</li>
+</ul>
+
+</div>
+
+
+</div>
+<h2>Equipment</h2>
+
+
+<div class="inventory">
+
+
+<div class="item">
+
+<h3>Programming Toolkit</h3>
+
+<p>
+C++, C#, Python, Java,
+JavaScript, TypeScript,
+HTML/CSS, SQL, R
+</p>
+
+</div>
+
+
+<div class="item">
+
+<h3>Development Tools</h3>
+
+<p>
+Git<br>
+VS Code<br>
+Linux<br>
+Game Engines<br>
+Creative Software
+</p>
+
+</div>
+
+
+<div class="item">
+
+<h3>Creative Tools</h3>
+
+<p>
+Camera<br>
+Microphone<br>
+Woodworking Tools<br>
+Art Supplies
+</p>
+
+</div>
+
+
+</div>
+<h2>Achievements</h2>
+
+
+<div class="achievement-list">
+
+
+<div class="achievement">
+
+<h3>🏆 Club Leader</h3>
+
+<p>
+MacEwan Game Development Club Co-President
+</p>
+
+</div>
+
+
+<div class="achievement">
+
+<h3>🤖 AI Creator</h3>
+
+<p>
+Created H.E.R.B.I.E. and S.H.R.O.O.M.I.
+</p>
+
+</div>
+
+
+<div class="achievement">
+
+<h3>📚 Teacher</h3>
+
+<p>
+Creates tutorials and teaches game development.
+</p>
+
+</div>
+
+
+<div class="achievement">
+
+<h3>🎮 Indie Developer</h3>
+
+<p>
+Building original games through Glass Chicken Studios.
+</p>
+
+</div>
+
+
+</div>
+
+<h2>Quest Log</h2>
+
+<div class="quest-log">
+
+    <div class="quest main-quest">
+
+        <div class="quest-header">
+
+            <h3>Main Quest</h3>
+
+            <span class="quest-status">
+                In Progress
+            </span>
+
+        </div>
+
+        <p>
+            Continue building worlds, games, and creative experiences
+            through Glass Chicken Studios.
+        </p>
+
+        <div class="quest-progress">
+
+            <span style="width:65%"></span>
+
+        </div>
+
+    </div>
+
+
+
+    <div class="quest">
+
+        <div class="quest-header">
+
+            <h3>🎮 Indie Development</h3>
+
+            <span>
+                Active
+            </span>
+
+        </div>
+
+        <p>
+            Designing and developing original games while improving
+            programming, design, and production skills.
+        </p>
+
+    </div>
+
+
+
+    <div class="quest">
+
+        <div class="quest-header">
+
+            <h3>📚 Teaching</h3>
+
+            <span>
+                Active
+            </span>
+
+        </div>
+
+        <p>
+            Creating tutorials, demos, and helping others learn
+            game development and design.
+        </p>
+
+    </div>
+
+
+
+    <div class="quest">
+
+        <div class="quest-header">
+
+            <h3>🏰 Guild Leadership</h3>
+
+            <span>
+                Completed → Ongoing
+            </span>
+
+        </div>
+
+        <p>
+            Supporting the MacEwan Game Development Club as
+            Co-President and helping grow the community.
+        </p>
+
+    </div>
+
+
+
+    <div class="quest">
+
+        <div class="quest-header">
+
+            <h3>🎲 Tabletop Creation</h3>
+
+            <span>
+                Side Quest
+            </span>
+
+        </div>
+
+        <p>
+            Creating physical card games, board games, and
+            running Dungeons & Dragons campaigns.
+        </p>
+
+    </div>
+
+
+
+    <div class="quest">
+
+        <div class="quest-header">
+
+            <h3>🌱 Real World Crafting</h3>
+
+            <span>
+                Passive Skill
+            </span>
+
+        </div>
+
+        <p>
+            Gardening, woodworking, robotics, photography,
+            filmmaking, and other creative projects.
+        </p>
+
+    </div>
+
+
+</div>
+        <footer>
+
+            <div class="footer-scenery">
+                <img class="tree tree-left random-tree" alt="">
+                <img class="tree tree-middle random-tree" alt="">
+                <img class="tree tree-right random-tree" alt="">
+                <img class="bush bush1 random-bush" alt="">
+                <img class="bush bush2 random-bush" alt="">
+                <img class="bush bush3 random-bush" alt="">
+                <script src="js/random.js"></script>
+
+                <div class="ground"></div>
+
+            </div>
+
+            <h3>DwnX | Glass Chicken Studios &copy; 2011</h3>
+
+        </footer>
     </body>
 </html>
