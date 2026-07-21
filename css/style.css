@@ -640,18 +640,20 @@ color: var(--dark);
 
 
 
+.project-title{
+    position:absolute;
+    bottom:20%;
+    left:50%;
 
+    font-family:"IndieFlower", cursive;
 
+    font-size:1.3rem;
+    font-weight:bold;
 
+    color:#333;
 
-
-
-
-
-
-
-
-
+    white-space:nowrap;
+}
 
 
 /* =====================
