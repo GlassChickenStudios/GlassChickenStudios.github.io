@@ -1763,7 +1763,7 @@ border:2px dashed var(--brown);
          MEDIA
 ===================== */
 /* ---------- Tablet ---------- */
-
+/*
 @media (max-width: 1000px){
 
     .service-container{
@@ -1784,9 +1784,9 @@ border:2px dashed var(--brown);
         grid-template-columns:repeat(2,1fr);
     }
 
-}
+}*/
 /* ---------- Mobile ---------- */
-
+/*
 @media (max-width:700px){
 
     body{
@@ -1874,7 +1874,7 @@ border:2px dashed var(--brown);
         font-size:32px;
     }
 
-}
+} */
 /* ==========================================================
                         RESPONSIVE
 ========================================================== */
